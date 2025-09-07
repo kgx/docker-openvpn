@@ -10,8 +10,8 @@ services:
       - MKNOD
       - NET_ADMIN
     ports:
-      - "943:943"
-      - "443:443"
+      - "8943:943"
+      - "8443:443"
       - "1194:1194/udp"
     volumes:
       - ./local/data:/openvpn
